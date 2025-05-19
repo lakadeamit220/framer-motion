@@ -2,6 +2,7 @@ import BasicAnimation from "./components/basics/BasicAnimation";
 import DynamicAnimation from "./components/basics/DynamicAnimation";
 import Keyframes from "./components/basics/Keyframes";
 import LayoutAnimation from "./components/basics/LayoutAnimation";
+import SVGAnimation from "./components/basics/SVGAnimation";
 import Variants from "./components/basics/Variants";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <DynamicAnimation />
       <Keyframes />
       <LayoutAnimation />
+      <SVGAnimation />
     </>
   );
 }
