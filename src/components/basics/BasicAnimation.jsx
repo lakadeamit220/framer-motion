@@ -14,7 +14,7 @@ function BasicAnimation() {
       />
 
       <motion.div
-        className="w-10 h-20 text-amber-500 border-4"
+        className="w-3 h-20 text-amber-500 border-4"
         animate={{ rotate: 360 }}
         transition={{ type: "spring", stiffness: 100, damping: 10 }}
       />
